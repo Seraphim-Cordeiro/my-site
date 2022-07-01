@@ -31,4 +31,39 @@ p {
 footer {
     background-color: #bfb29e;
     color: black;
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
 }
+
+footer img {
+    display: flex;
+    width: 30%;
+    height: 30%;
+}
+
+footer p {
+    display: flex;
+    width: 40%;
+    height: 10%;
+}
+
+/* unvisited link */
+a:link {
+    color: black;
+  }
+  
+  /* visited link */
+  a:visited {
+    color: black;
+  }
+  
+  /* mouse over link */
+  a:hover {
+    color: red;
+  }
+  
+  /* selected link */
+  a:active {
+    color: red;
+  }
